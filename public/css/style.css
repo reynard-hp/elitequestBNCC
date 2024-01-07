@@ -1,0 +1,46 @@
+main {
+    min-height: 100vh;
+}
+
+footer {
+    font-size: 15px;
+}
+
+.img-thumbnail {
+    width: 200px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+.how-to-make ul {
+    padding: 0;
+}
+
+.how-to-make li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+/* Sign IN */
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
